@@ -5,7 +5,6 @@ $ward = 021;
 
 if($has_pvc = false){
     echo "Voter ineligible to vote because user does not have a PVC";
-
 }elseif($age < 18){
     echo "Voter ineligible to vote because user is below 18 years of age";
 }elseif($ward != 021 ){
